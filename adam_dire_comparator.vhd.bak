@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity adam_dire_comparator is 
+	Port ( A, B : in std_logic_vector(3 downto 0);
+			AgtBplusOne : out std_logic;
+			AgteBplusOne : out std_logic;
+			AltBplusOne : out std_logic;
+			AlteBplusOne : out std_logic;
+			AeqBplusOne : out std_logic;
+			overflow : out std_logic;
+			)
